@@ -61,7 +61,7 @@ const SignUp: React.FC = () => {
 		}else if (registerState.password.length <= 5) {
 			alert("password should be atleast 6 characters")
 			return;
-		}else if(registerState.username.length <= 5){
+		}else if(!registerState.username.length){
 			alert("username is a required field");
 			return;
 		}
