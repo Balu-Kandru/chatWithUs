@@ -4,7 +4,6 @@ import SignUp from "./components/SignUp";
 import { Protected, IsUserLoggedIn } from "./assets/utilities";
 import React from "react";
 import DashBoard from "./components/DashBoard";
-// import Header from "./components/Header";
 
 const App: React.FC = () => {
   return (
@@ -12,7 +11,8 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<IsUserLoggedIn><SignIn /></IsUserLoggedIn>}></Route>
         <Route path="/register" element={<IsUserLoggedIn><SignUp/></IsUserLoggedIn>}></Route>
-        <Route path="/chat" element={<DashBoard/>} ></Route>
+        <Route path="/chat" element={<Protected><DashBoard/></Protected>} ></Route>
+
       </Routes>
     </BrowserRouter>
   )

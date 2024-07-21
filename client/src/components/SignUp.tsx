@@ -1,8 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import { AxiosResponse } from "axios";
 import { useEffect, useState } from "react";
 import "../styles/SignUp.css";
 import '../styles/common.css';
+import { apiClient } from "../config";
+import { ApiRoutes } from "../enums/ApiRoutes";
+import { setLocalStorage } from "../assets/utilities";
 
 
 const SignUp: React.FC = () => {
@@ -10,6 +13,22 @@ const SignUp: React.FC = () => {
 	const navigate = useNavigate();
 	const navigateToSignIn = () => {
 		navigate("/");
+	}
+
+	interface User {
+		id: number;
+		username: string;
+		email: string;
+		provider: string;
+		confirmed: boolean;
+		blocked: boolean;
+		createdAt: string;
+		updatedAt: string;
+	}
+	
+	interface AuthResponse {
+		jwt: string;
+		user: User;
 	}
 
 	const [isLargeScreen, setIsLargeScreen] = useState(window.matchMedia("(min-width: 768px)").matches);
@@ -20,23 +39,17 @@ const SignUp: React.FC = () => {
   
 	  mediaQuery.addEventListener('change', handleMediaChange);
   
-	  // Cleanup listener on unmount
 	  return () => mediaQuery.removeEventListener('change', handleMediaChange);
 	}, []);
 
-	//event: React.ChangeEvent<HTMLInputElement>
 	const handleLogin = () => {
-		// event.preventDefault();
-		axios.post("https://laundry-cart-server.herokuapp.com/user/register", registerState)
-			.then((res) => {
-				alert("successfully registered")
-				navigate("/")
-			}).catch((err) => {
-				if (err.response.status === 404) {
-					alert("please enter all the details")
-				} else {
-					alert(err.response.data)
-				}
+			apiClient.post<ApiRoutes, AxiosResponse<AuthResponse>>(ApiRoutes.LOGIN, registerState)
+			.then((loginData: AxiosResponse<AuthResponse>) => {
+				setLocalStorage(loginData.data.jwt, loginData.data.user.username);
+				navigate("/chat")
+			}).catch((err: any) => {
+				alert(`Unauthorized user ${err}`);
+
 			})
 	}
 

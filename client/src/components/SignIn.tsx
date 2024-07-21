@@ -9,7 +9,7 @@ import { setLocalStorage } from "../assets/utilities";
 
 const SignIn: React.FC = () => {
 	const [signupState, setSignupstate] = useState({});
-	const [passwordShown, setPasswordShown] = useState(false);
+	// const [passwordShown, setPasswordShown] = useState(false);
 	const navigate = useNavigate();
 	const [isLargeScreen, setIsLargeScreen] = useState(window.matchMedia("(min-width: 768px)").matches);
 
@@ -70,7 +70,7 @@ const SignIn: React.FC = () => {
 								<input id="email1" type="email" placeholder="Email" className="signUpinput" onChange={(e) => { setSignupstate({ ...signupState, identifier: e.target.value }) }} />
 							</div>
 							<div className="width80 mt5">
-								<input id="password1" type={passwordShown ? "text" : "password"} className="signUpinput" placeholder="Password" onChange={(e) => { setSignupstate({ ...signupState, password: e.target.value }) }} />
+								<input id="password1" type="password" className="signUpinput" placeholder="Password" onChange={(e) => { setSignupstate({ ...signupState, password: e.target.value }) }} />
 							{/* <img src={padlock} onClick={togglePassword} alt="err"></img> */}
 
 							</div>
