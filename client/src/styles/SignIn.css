@@ -1,0 +1,49 @@
+/* .signin-container-2 {
+  top: 100px;
+  left: 730px;
+  width: 702px;
+  height: 769px;
+  background: #B9C0FD1A 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+} */
+
+/* .signin-12 {
+  top: 170px;
+  left: 154px;
+  width: 128px;
+  height: 44px;
+  text-align: left;
+  letter-spacing: 1.28px;
+  color: #4552C1;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  font-size: xx-large;
+} */
+
+#email {
+  top: 372px;
+  left: 865px;
+  width: 322px;
+  height: 27px;
+  text-align: left;
+  font: normal normal normal 17px/27px Open Sans;
+  letter-spacing: 0.6px;
+  color: #77838F;
+  border-style: none;
+  opacity: 1;
+  background: #B9C0FD1A 0% 0% no-repeat padding-box;
+}
+
+/* .hr1 {
+  position: relative;
+  left: 1px;
+}
+
+.hr2 {
+  width: 324px;
+  position: absolute;
+  top: 417px;
+  left: 155px;
+} */

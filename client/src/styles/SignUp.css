@@ -1,0 +1,342 @@
+.register-container {
+    top: -20px;
+    left: 9px;
+    width: 1440px;
+    height: 1172px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+
+.left-register-container {
+    width: 401px;
+    height: 766px;
+    position: absolute;
+    top: 100px
+}
+
+.register-core-test {
+    top: 218px;
+    left: 69px;
+    width: 284px;
+    height: 197px;
+    text-align: left;
+    font: normal normal 900 62px/80px Avenir;
+    letter-spacing: 2.48px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+    position: absolute;
+}
+
+.register-slogan {
+    top: 391px;
+    left: 72px;
+    width: 175px;
+    height: 59px;
+    text-align: left;
+    font: normal normal normal 20px/32px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    position: absolute;
+}
+
+.da-21 {
+    top: 586px;
+    left: 72px;
+    width: 208px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    position: absolute;
+}
+
+.register-button-sontainer {
+    top: 657px;
+    left: 69px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #5861AE;
+    border-radius: 4px;
+    opacity: 1;
+    position: absolute;
+}
+
+.register-signin-button {
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 50px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #5861AE;
+    opacity: 1;
+    position: absolute;
+    border-style: none;
+    background: white;
+    cursor: pointer;
+}
+
+.right-register-container {
+    top: 100px;
+    left: 477px;
+    width: 956px;
+    height: 766px;
+    background: #F8F9FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+
+
+
+
+.register-core-title-text {
+    top: 45px;
+    left: 63px;
+    width: 157px;
+    height: 44px;
+    /* UI Properties */
+    text-align: left;
+    /* font: normal normal medium 32px/60px Avenir; */
+    letter-spacing: 1.28px;
+    color: #5861AE;
+    text-transform: uppercase;
+    position: absolute;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.register-name-input-section-name {
+    top: 139px;
+    left: 68.5px;
+    width: 322px;
+    height: 27px;
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+    border-style: none;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    position: absolute;
+}
+
+.hr3 {
+    width: 324px;
+    position: absolute;
+    top: 170px;
+    left: 68px;
+}
+
+.register-email-input-section-email {
+    top: 139px;
+    left: 569px;
+    width: 322px;
+    height: 27px;
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    border-style: none;
+    opacity: 1;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    position: absolute;
+}
+
+.hr4 {
+    width: 324px;
+    position: absolute;
+    top: 170px;
+    left: 568px;
+}
+
+.register-phone-input-section-section-phone {
+    top: 263px;
+    left: 66.5px;
+    width: 322px;
+    height: 27px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+    position: absolute;
+    border-style: none;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+}
+
+.hr5 {
+    width: 324px;
+    position: absolute;
+    top: 293px;
+    left: 67px;
+}
+
+.register-state-input-section-state {
+    top: 263px;
+    left: 569px;
+    width: 322px;
+    height: 27px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+    position: absolute;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    border-style: none;
+}
+
+.hr6 {
+    width: 324px;
+    position: absolute;
+    top: 293px;
+    left: 570px;
+}
+
+.register-state-input-section-district {
+    top: 394px;
+    left: 66.5px;
+    width: 322px;
+    height: 27px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+    position: absolute;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    border-style: none;
+}
+
+.hr7 {
+    width: 324px;
+    position: absolute;
+    left: 67px;
+    top: 426px;
+}
+
+.register-address-input-section-address {
+    top: 394px;
+    left: 570px;
+    width: 322px;
+    height: 27px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+    border-style: none;
+    position: absolute;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+}
+
+.hr8 {
+    width: 324px;
+    position: absolute;
+    top: 426px;
+    left: 570px;
+}
+
+.register-pincode-input-section-pincode {
+    top: 506px;
+    left: 66.5px;
+    width: 322px;
+    height: 27px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #77838F;
+    opacity: 1;
+    border-style: none;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    position: absolute;
+}
+
+.hr9 {
+    width: 324px;
+    position: absolute;
+    top: 537px;
+    left: 66.5px;
+}
+
+#checkbox-register {
+    top: 640px;
+    left: 284px;
+    width: 22px;
+    height: 22px;
+    /* UI Properties */
+    background: transparent url(../assests/CD.svg) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    opacity: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.checkbox-text {
+    top: 643px;
+    left: 321px;
+    width: 566px;
+    height: 22px;
+    /* UI Properties */
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 14px/20px Open Sans;
+    letter-spacing: 0.49px;
+    color: #5861AE;
+    opacity: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+.register-button-container {
+    top: 690px;
+    left: 469px;
+    width: 150px;
+    height: 50px;
+    /* UI Properties */
+    background: #5861AE 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    position: absolute;
+}
+
+.register-button-input-section {
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    border-radius: 4px;
+    height: 50px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #5861AE 0% 0% no-repeat padding-box;
+    position: absolute;
+    cursor: pointer;
+}
+
+.hr10 {
+    width: 324px;
+    position: absolute;
+    top: 537px;
+    left: 572px;
+}

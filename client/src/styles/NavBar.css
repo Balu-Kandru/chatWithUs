@@ -1,0 +1,9 @@
+.navButtonsDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}

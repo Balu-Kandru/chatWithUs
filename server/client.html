@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Socket.io Client</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const socket = io('http://localhost:1337'); // Adjust the URL as needed
+
+      // Send a message to the server
+      socket.emit('message', 'Hello Server!');
+
+      // Listen for messages from the server
+      socket.on('message', (msg) => {
+        console.log('Received message from server:', msg);
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>Socket.io Client</h1>
+</body>
+</html>

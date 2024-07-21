@@ -1,0 +1,194 @@
+.widthFull {
+    width: -webkit-fill-available;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.widh25 {
+    width: 25%;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.m5 {
+    margin: 5%
+}
+
+.mt5 {
+    margin-top: 5%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs24 {
+    font-size: 24px;
+
+}
+
+.form-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: white;
+    border-color: #8792eb;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.signInDiv {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeadingDiv {
+    display: flex;
+    align-items: flex-end;
+    font-size: 32px;
+    height: 48%;
+}
+
+.signInButtonDiv {
+    display: flex;
+    flex-direction: column;
+    height: 48%;
+}
+
+.register-signin {
+    font-size: 20px;
+}
+
+.loginDiv {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8792eb;
+}
+
+.login-form {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    height: 35%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUpinput {
+    width: -webkit-fill-available;
+    height: 31px;
+    FONT-SIZE: 16px;
+    border-radius: 10px;
+}
+
+.main-chat-div {
+    width: calc(100vw - 400px);
+}
+
+.chat-div {
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+@media (max-width: 768px) {
+    .main-chat-div {
+        margin-top: 12px;
+        width: calc(100vw - 16px);
+    }
+
+    .chat-div {
+        height: calc(100vh - 130px);
+        overflow-y: scroll;
+        border: 1px solid #000000;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .loginDiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #8792eb;
+        height: 98vh;
+        flex-direction: column;
+    }
+
+    .HeadingDiv {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        height: 48%;
+    }
+
+    .signInButtonDiv {
+        display: flex;
+        flex-direction: column;
+        height: 48%;
+        justify-content: center;
+    }
+}
+
+.message {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 70%;
+}
+
+.server-message {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 20px;
+    /* float: left; */
+
+}
+
+.user-message {
+    background-color: #8792eb;
+    border-radius: 5px;
+
+    margin: 10px;
+    padding: 10px;
+    /* float: right; */
+}
+
+.message-content {
+    padding: 5px;
+}
+
+.message-time {
+    font-size: 0.8em;
+    color: #777;
+}
